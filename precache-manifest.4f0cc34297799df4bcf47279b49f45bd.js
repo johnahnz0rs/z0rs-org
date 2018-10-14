@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/css/main.9a7d1638.chunk.css"
   },
   {
-    "revision": "277b1672788e9e29ba4e8a31c65aa804",
+    "revision": "68523458c59d0d534259b88bdba519bb",
     "url": "/z0rs-org/index.html"
   }
 ];
