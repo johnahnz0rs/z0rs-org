@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/media/whatmusic.726284cf.png"
   },
   {
-    "revision": "e5bd9e22e873584d3f90",
-    "url": "/z0rs-org/static/css/main.7231c2cc.chunk.css"
+    "revision": "ae27a9bf24c2d2878a59",
+    "url": "/z0rs-org/static/css/main.2be99755.chunk.css"
   },
   {
-    "revision": "399f531de02ef22557a9",
-    "url": "/z0rs-org/static/js/1.399f531d.chunk.js"
+    "revision": "22ac032b76f06eea935c",
+    "url": "/z0rs-org/static/js/1.22ac032b.chunk.js"
   },
   {
     "revision": "7e9a8c854a2da75992bb",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/media/upwork.52dea12c.png"
   },
   {
-    "revision": "e5bd9e22e873584d3f90",
-    "url": "/z0rs-org/static/js/main.e5bd9e22.chunk.js"
+    "revision": "ae27a9bf24c2d2878a59",
+    "url": "/z0rs-org/static/js/main.ae27a9bf.chunk.js"
   },
   {
     "revision": "515b9feb6ead3057c91e484b9c505f87",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/media/brand.47797a1e.png"
   },
   {
-    "revision": "c9474aee30124f4d8847054d99bf9d8f",
+    "revision": "064b31d7be034bdae4768867609822be",
     "url": "/z0rs-org/index.html"
   }
 ];
