@@ -2,7 +2,7 @@
   "name": "z0rs-org",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://johnahnz0rs.github.io/",
+  "homepage": "https://z0rs.org",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
