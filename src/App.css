@@ -1,0 +1,147 @@
+/*ContentArea.js*/
+.my-navbar {
+    margin-bottom: 30px;
+}
+.navbar-brand {
+    width: 150px;
+    height: auto;
+}
+.navbar-nav{
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.nav-link {
+    margin-right: 50px;
+}
+/*end ContentArea.js*/
+
+
+/*HomeCarousel.js*/
+.home-slides {
+    height: 100%;
+    padding: 50px 0;
+}
+.slide-header {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.slide-img-xs {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.slide-img {
+    width: 450px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.figure-xs {
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+.figure {
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+/*end HomeCarousel.js*/
+
+
+/*Portfolio.js*/
+.portfolio-item {
+    margin: 30px auto;
+    padding: 30px 0;
+    border: 1px solid black;
+}
+.portfolio-screenshot {
+    width: 95%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.portfolio-header {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*end Portfolio.js*/
+
+
+/*Resume.js*/
+.resume-img {
+    margin: 20px auto;
+}
+.resume-thumbnail {
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+/*end Resume.js*/
+
+
+
+/*About.js*/
+.about-video-placeholder {
+    width: 640px;
+    max-width: 95%;
+    margin: 0 auto;
+    height: auto;
+}
+.about-social {
+    margin-top: 60px;
+}
+.about-social-img {
+    width: 50px;
+    height: auto;
+}
+/*end About.js*/
+
+
+/*ContactForm.js*/
+.contact-form-div {
+    padding: 0 50px;
+}
+.contact-form-header {
+    margin-bottom: 30px;
+}
+.contact-form-send {
+    margin-bottom: 40px;
+}
+/*end ContactForm.js*/
+
+
+/*ContactInfo.js*/
+.contact-info-div {
+    padding: 10px;
+}
+.contact-item {
+    margin: 30px 0;
+}
+.contact-logo {
+    /*icons for email, phone, text, linkedin, etc. logos*/
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+dd {
+    margin-bottom: 30px;
+}
+/*end ContactInfo.js*/
+
+
+
+
+/*Misc*/
+.no-bullets {
+    list-style: none;
+}
+.text-bold {
+    font-weight: bold;
+}
+.text-underline {
+    text-decoration: underline;
+}
+.text-large {
+    font-size: 1.5em;
+}
+/*end Misc*/
