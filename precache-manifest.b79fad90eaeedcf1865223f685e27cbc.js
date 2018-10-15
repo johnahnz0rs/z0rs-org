@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/media/upwork.52dea12c.png"
   },
   {
-    "revision": "442c03a4567de2675226",
+    "revision": "0522820e3ad1e6aa50f2",
     "url": "/z0rs-org/static/css/main.136c8a18.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/media/brand.47797a1e.png"
   },
   {
-    "revision": "442c03a4567de2675226",
-    "url": "/z0rs-org/static/js/main.442c03a4.chunk.js"
+    "revision": "0522820e3ad1e6aa50f2",
+    "url": "/z0rs-org/static/js/main.0522820e.chunk.js"
   },
   {
     "revision": "726284cf900298df066ccee053d141a0",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/media/text.06644116.png"
   },
   {
-    "revision": "84e083ee5c279f1b5ce85867f61cd471",
+    "revision": "9f95588d137316075e615cd200e54d00",
     "url": "/z0rs-org/index.html"
   }
 ];

@@ -1,7 +1,7 @@
 {
   "main.css": "/z0rs-org/static/css/main.136c8a18.chunk.css",
-  "main.js": "/z0rs-org/static/js/main.442c03a4.chunk.js",
-  "main.js.map": "/z0rs-org/static/js/main.442c03a4.chunk.js.map",
+  "main.js": "/z0rs-org/static/js/main.0522820e.chunk.js",
+  "main.js.map": "/z0rs-org/static/js/main.0522820e.chunk.js.map",
   "static/js/1.c11e51e9.chunk.js": "/z0rs-org/static/js/1.c11e51e9.chunk.js",
   "static/js/1.c11e51e9.chunk.js.map": "/z0rs-org/static/js/1.c11e51e9.chunk.js.map",
   "runtime~main.js": "/z0rs-org/static/js/runtime~main.7e9a8c85.js",
@@ -18,6 +18,6 @@
   "static/media/instagram.png": "/z0rs-org/static/media/instagram.01a54c49.png",
   "static/css/main.136c8a18.chunk.css.map": "/z0rs-org/static/css/main.136c8a18.chunk.css.map",
   "index.html": "/z0rs-org/index.html",
-  "precache-manifest.b8fbc4af65f6bd4b3bb96578935fed8e.js": "/z0rs-org/precache-manifest.b8fbc4af65f6bd4b3bb96578935fed8e.js",
+  "precache-manifest.b79fad90eaeedcf1865223f685e27cbc.js": "/z0rs-org/precache-manifest.b79fad90eaeedcf1865223f685e27cbc.js",
   "service-worker.js": "/z0rs-org/service-worker.js"
 }
