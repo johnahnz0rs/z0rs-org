@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/media/whatmusic.726284cf.png"
   },
   {
-    "revision": "59840e419c95596f0ee3",
-    "url": "/z0rs-org/static/css/main.19ed8696.chunk.css"
+    "revision": "e5bd9e22e873584d3f90",
+    "url": "/z0rs-org/static/css/main.7231c2cc.chunk.css"
   },
   {
     "revision": "399f531de02ef22557a9",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/media/upwork.52dea12c.png"
   },
   {
-    "revision": "59840e419c95596f0ee3",
-    "url": "/z0rs-org/static/js/main.59840e41.chunk.js"
+    "revision": "e5bd9e22e873584d3f90",
+    "url": "/z0rs-org/static/js/main.e5bd9e22.chunk.js"
   },
   {
     "revision": "515b9feb6ead3057c91e484b9c505f87",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/media/brand.47797a1e.png"
   },
   {
-    "revision": "006fe371b3c1689a92155429bbd487fd",
+    "revision": "c9474aee30124f4d8847054d99bf9d8f",
     "url": "/z0rs-org/index.html"
   }
 ];
