@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "5b8df5416ed9d79ae5c25149aaa703b6",
+    "url": "/z0rs-org/static/media/video.5b8df541.png"
+  },
+  {
     "revision": "066441166cebbd939bfdc69787932297",
     "url": "/z0rs-org/static/media/text.06644116.png"
   },
@@ -16,19 +20,19 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/js/runtime~main.7e9a8c85.js"
   },
   {
-    "revision": "afec7cfe718b8bfac7be",
-    "url": "/z0rs-org/static/js/main.afec7cfe.chunk.js"
+    "revision": "8c04e1cecf2335dfa5dd",
+    "url": "/z0rs-org/static/js/main.8c04e1ce.chunk.js"
   },
   {
-    "revision": "29ddcab20405aaf8e2e6",
-    "url": "/z0rs-org/static/js/1.29ddcab2.chunk.js"
+    "revision": "341b20604b1340668b15",
+    "url": "/z0rs-org/static/js/1.341b2060.chunk.js"
   },
   {
-    "revision": "afec7cfe718b8bfac7be",
-    "url": "/z0rs-org/static/css/main.25b6fc85.chunk.css"
+    "revision": "8c04e1cecf2335dfa5dd",
+    "url": "/z0rs-org/static/css/main.537e1063.chunk.css"
   },
   {
-    "revision": "426672d97e1ab080528d019725a18213",
+    "revision": "4bf0a54447fc995585e4afaa8cc6a627",
     "url": "/z0rs-org/index.html"
   }
 ];
