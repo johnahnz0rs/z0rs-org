@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "52dea12ce5c5b7348994a38389017f8e",
-    "url": "/z0rs-org/static/media/upwork.52dea12c.png"
+    "revision": "726284cf900298df066ccee053d141a0",
+    "url": "/z0rs-org/static/media/whatmusic.726284cf.png"
   },
   {
-    "revision": "0522820e3ad1e6aa50f2",
+    "revision": "ca562135a505fcaf84ae",
     "url": "/z0rs-org/static/css/main.136c8a18.chunk.css"
   },
   {
-    "revision": "c11e51e974dd64410be4",
-    "url": "/z0rs-org/static/js/1.c11e51e9.chunk.js"
+    "revision": "c601a19ffda9621a821c",
+    "url": "/z0rs-org/static/js/1.c601a19f.chunk.js"
   },
   {
     "revision": "7e9a8c854a2da75992bb",
@@ -24,16 +24,12 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/media/instagram.01a54c49.png"
   },
   {
-    "revision": "47797a1e31109c31c918ba59f31ec7af",
-    "url": "/z0rs-org/static/media/brand.47797a1e.png"
+    "revision": "52dea12ce5c5b7348994a38389017f8e",
+    "url": "/z0rs-org/static/media/upwork.52dea12c.png"
   },
   {
-    "revision": "0522820e3ad1e6aa50f2",
-    "url": "/z0rs-org/static/js/main.0522820e.chunk.js"
-  },
-  {
-    "revision": "726284cf900298df066ccee053d141a0",
-    "url": "/z0rs-org/static/media/whatmusic.726284cf.png"
+    "revision": "ca562135a505fcaf84ae",
+    "url": "/z0rs-org/static/js/main.ca562135.chunk.js"
   },
   {
     "revision": "515b9feb6ead3057c91e484b9c505f87",
@@ -56,7 +52,11 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/media/text.06644116.png"
   },
   {
-    "revision": "9f95588d137316075e615cd200e54d00",
+    "revision": "47797a1e31109c31c918ba59f31ec7af",
+    "url": "/z0rs-org/static/media/brand.47797a1e.png"
+  },
+  {
+    "revision": "7cc7d46bfa59e684fc0c08f47b7c9975",
     "url": "/z0rs-org/index.html"
   }
 ];
