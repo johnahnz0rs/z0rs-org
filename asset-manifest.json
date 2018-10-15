@@ -1,9 +1,9 @@
 {
-  "main.css": "/z0rs-org/static/css/main.136c8a18.chunk.css",
-  "main.js": "/z0rs-org/static/js/main.ca562135.chunk.js",
-  "main.js.map": "/z0rs-org/static/js/main.ca562135.chunk.js.map",
-  "static/js/1.c601a19f.chunk.js": "/z0rs-org/static/js/1.c601a19f.chunk.js",
-  "static/js/1.c601a19f.chunk.js.map": "/z0rs-org/static/js/1.c601a19f.chunk.js.map",
+  "main.css": "/z0rs-org/static/css/main.19ed8696.chunk.css",
+  "main.js": "/z0rs-org/static/js/main.59840e41.chunk.js",
+  "main.js.map": "/z0rs-org/static/js/main.59840e41.chunk.js.map",
+  "static/js/1.399f531d.chunk.js": "/z0rs-org/static/js/1.399f531d.chunk.js",
+  "static/js/1.399f531d.chunk.js.map": "/z0rs-org/static/js/1.399f531d.chunk.js.map",
   "runtime~main.js": "/z0rs-org/static/js/runtime~main.7e9a8c85.js",
   "runtime~main.js.map": "/z0rs-org/static/js/runtime~main.7e9a8c85.js.map",
   "static/media/video.png": "/z0rs-org/static/media/video.42aece40.png",
@@ -16,8 +16,8 @@
   "static/media/text.png": "/z0rs-org/static/media/text.06644116.png",
   "static/media/brand.png": "/z0rs-org/static/media/brand.47797a1e.png",
   "static/media/instagram.png": "/z0rs-org/static/media/instagram.01a54c49.png",
-  "static/css/main.136c8a18.chunk.css.map": "/z0rs-org/static/css/main.136c8a18.chunk.css.map",
+  "static/css/main.19ed8696.chunk.css.map": "/z0rs-org/static/css/main.19ed8696.chunk.css.map",
   "index.html": "/z0rs-org/index.html",
-  "precache-manifest.b657e8eee14f6e4087633e8d6ec1c6a4.js": "/z0rs-org/precache-manifest.b657e8eee14f6e4087633e8d6ec1c6a4.js",
+  "precache-manifest.d331aeb78babc9cbfc2f2da3900ba5e9.js": "/z0rs-org/precache-manifest.d331aeb78babc9cbfc2f2da3900ba5e9.js",
   "service-worker.js": "/z0rs-org/service-worker.js"
 }
