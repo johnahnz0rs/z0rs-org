@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/z0rs-org/static/js/runtime~main.7e9a8c85.js"
   },
   {
-    "revision": "8c04e1cecf2335dfa5dd",
-    "url": "/z0rs-org/static/js/main.8c04e1ce.chunk.js"
+    "revision": "96070b95d3f12460b627",
+    "url": "/z0rs-org/static/js/main.96070b95.chunk.js"
   },
   {
-    "revision": "341b20604b1340668b15",
-    "url": "/z0rs-org/static/js/1.341b2060.chunk.js"
+    "revision": "3108f94ac3ab67500767",
+    "url": "/z0rs-org/static/js/1.3108f94a.chunk.js"
   },
   {
-    "revision": "8c04e1cecf2335dfa5dd",
-    "url": "/z0rs-org/static/css/main.537e1063.chunk.css"
+    "revision": "96070b95d3f12460b627",
+    "url": "/z0rs-org/static/css/main.495e2b7b.chunk.css"
   },
   {
-    "revision": "4bf0a54447fc995585e4afaa8cc6a627",
+    "revision": "a1f96956f6df52e6f1d8fe9f08ca7ac5",
     "url": "/z0rs-org/index.html"
   }
 ];
