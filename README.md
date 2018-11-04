@@ -10,7 +10,7 @@
 [x] contentarea.js - navbar
 [x] clean up css
 
-[] connect custom domain z0rs.org
+[x] connect custom domain z0rs.org
 
 [] learn more about facebook ads
 [] learn more about instagram ads

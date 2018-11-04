@@ -7,7 +7,7 @@ const ContactForm = props => {
         <React.Fragment>
 
             <div className="contact-form-div container-fluid">
-                <h3 className="contact-form-header">Send a Message</h3>
+                <h3 className="contact-form-header text-center">Send a Message</h3>
 
 
                 <form id="contact-form" action="https://formspree.io/johnahn@z0rs.org" method="POST">

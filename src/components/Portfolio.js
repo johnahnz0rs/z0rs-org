@@ -11,28 +11,7 @@ const Portfolio = props => {
 
             <div className="container-fluid center-text">
 
-                {/* Upwork */}
-                <div className="row portfolio-item">
-                    <div className="col-sm-5 text-center">
-                        <a href="https://www.upwork.com/o/profiles/users/_~01c988de773d5c096f/" target="_blank" rel="noopener noreferrer">
-                            <img className="portfolio-screenshot" src={Upwork} alt="Upwork" />
-                        </a>
-                    </div>
-                    <div className="col-sm-7">
-                        <ul className="list-unstyled">
-                            <li><h4 className="portfolio-header">Upwork</h4></li>
-                            <li>
-                                <dl className="row">
-                                    <dt className="col-sm-2">Description</dt>
-                                    <dd className="col-sm-9">Freelance Web & Mobile Development</dd>
-
-                                    <dt className="col-sm-2">My Upwork Rating</dt>
-                                    <dd className="col-sm-9">5 Stars</dd>
-                                </dl>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <h1 className="page-title text-center">Portfolio</h1>
 
                 {/* whatMusic */}
                 <div className="row portfolio-item">
@@ -126,6 +105,29 @@ const Portfolio = props => {
 
                                     <dt className="col-sm-2">Link</dt>
                                     <dd className="col-sm-9"><a href="http://rbpal.me" target="_blank" rel="noopener noreferrer">www.rBPal.me</a></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                {/* Upwork */}
+                <div className="row portfolio-item">
+                    <div className="col-sm-5 text-center">
+                        <a href="https://www.upwork.com/o/profiles/users/_~01c988de773d5c096f/" target="_blank" rel="noopener noreferrer">
+                            <img className="portfolio-screenshot" src={Upwork} alt="Upwork" />
+                        </a>
+                    </div>
+                    <div className="col-sm-7">
+                        <ul className="list-unstyled">
+                            <li><h4 className="portfolio-header">Upwork</h4></li>
+                            <li>
+                                <dl className="row">
+                                    <dt className="col-sm-2">Description</dt>
+                                    <dd className="col-sm-9">Freelance Web & Mobile Development</dd>
+
+                                    <dt className="col-sm-2">My Upwork Rating</dt>
+                                    <dd className="col-sm-9">5 Stars</dd>
                                 </dl>
                             </li>
                         </ul>

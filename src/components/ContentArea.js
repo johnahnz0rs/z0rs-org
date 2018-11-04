@@ -38,7 +38,7 @@ class ContentArea extends React.Component {
     }
 
     onClick = (e) => {
-        this.setState({showThisTab: e.target.id});
+        this.setState({showThisTab: e.target.name});
     };
 
 
@@ -51,25 +51,29 @@ class ContentArea extends React.Component {
                     <Navbar className="my-navbar">
 
                         <NavbarBrand href="#" className="mr-auto ml-auto">
-                            <img id="home" className="navbar-brand" src={Brand} alt="" onClick={this.onClick} />
+                            <img id="home" name="home" className="navbar-brand" src={Brand} alt="" onClick={this.onClick} />
                         </NavbarBrand>
 
                         <Nav className="mr-auto" navbar>
 
                             <NavItem>
-                                <NavLink id="portfolio" onClick={this.onClick} href="#">Portfolio</NavLink>
+                                <NavLink id="testimonials" name="home" onClick={this.onClick} href="3">Testimonials</NavLink>
                             </NavItem>
 
                             <NavItem>
-                                <NavLink id="resume" onClick={this.onClick} href="#">Resume</NavLink>
+                                <NavLink id="portfolio" name="portfolio" onClick={this.onClick} href="#">Portfolio</NavLink>
                             </NavItem>
 
                             <NavItem>
-                                <NavLink id="about" onClick={this.onClick} href="#">About J.Ahn</NavLink>
+                                <NavLink id="resume" name="resume" onClick={this.onClick} href="#">Resume</NavLink>
                             </NavItem>
 
                             <NavItem>
-                                <NavLink id="contact" onClick={this.onClick} href="#">Contact</NavLink>
+                                <NavLink id="about" name="about" onClick={this.onClick} href="#">About J.Ahn</NavLink>
+                            </NavItem>
+
+                            <NavItem>
+                                <NavLink id="contact" name="contact" onClick={this.onClick} href="#">Contact</NavLink>
                             </NavItem>
 
                         </Nav>

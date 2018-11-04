@@ -7,6 +7,9 @@ const About = props => {
     return (
         <React.Fragment>
             <div className="container-fluid text-center">
+
+                <h1 className="page-title">About John Ahn</h1>
+
                 {/*figure if mobile*/}
                 <div className="col-12 d-block d-sm-none">
                     <figure className="figure figure-xs">

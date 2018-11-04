@@ -1,6 +1,6 @@
 /*ContentArea.js*/
 .my-navbar {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .navbar-brand {
     width: 150px;
@@ -12,9 +12,35 @@
     flex-direction: row;
 }
 .nav-link {
-    margin-right: 50px;
+    margin-left: 1.5em;
 }
 /*end ContentArea.js*/
+
+
+
+/*Home*/
+.home-root {
+    width: 66%;
+    margin: 0 auto;
+}
+.testimonials-header {
+    display: block;
+}
+.testimonial {
+    width: 180px;
+    height: 320px;
+    /*display: inline-block;*/
+    display: block;
+    margin: 20px auto;
+}
+/*end Home*/
+
+/*Modal*/
+.small-logo {
+    width: 20px;
+    height: auto;
+}
+/*end Modal*/
 
 
 /*HomeCarousel.js*/
@@ -143,5 +169,9 @@ dd {
 }
 .text-large {
     font-size: 1.5em;
+}
+.page-title {
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
 /*end Misc*/

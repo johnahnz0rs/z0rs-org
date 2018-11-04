@@ -23,3 +23,5 @@ yarn-error.log*
 #johnahnz0rs
 .idea/
 venv/
+.env
+src/Nicole.css

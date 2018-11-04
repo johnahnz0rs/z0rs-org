@@ -10,6 +10,8 @@ const Resume = props => {
         <React.Fragment>
             <div className="container-fluid text-center">
 
+                <h1 className="page-title">Resume</h1>
+
 
                 <div className="col-12">
                     <form action={resumeURL} target="_blank" rel="noopener noreferrer">
