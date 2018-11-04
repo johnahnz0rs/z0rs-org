@@ -4,32 +4,32 @@ self.__precacheManifest = [
     "url": "/static/media/whatmusic.726284cf.png"
   },
   {
-    "revision": "b59da065b2a646dee0c7",
-    "url": "/static/css/main.2be99755.chunk.css"
+    "revision": "f6e1f041e2a72a5b47a9",
+    "url": "/static/css/main.8a0358be.chunk.css"
   },
   {
-    "revision": "22ac032b76f06eea935c",
-    "url": "/static/js/1.22ac032b.chunk.js"
+    "revision": "760c1ba006c985330653",
+    "url": "/static/js/1.760c1ba0.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "42aece40bcb283afeb5f559588dcd41f",
-    "url": "/static/media/video.42aece40.png"
-  },
-  {
     "revision": "01a54c49d6e84199aba1a83a52d93d45",
     "url": "/static/media/instagram.01a54c49.png"
+  },
+  {
+    "revision": "42aece40bcb283afeb5f559588dcd41f",
+    "url": "/static/media/video.42aece40.png"
   },
   {
     "revision": "52dea12ce5c5b7348994a38389017f8e",
     "url": "/static/media/upwork.52dea12c.png"
   },
   {
-    "revision": "b59da065b2a646dee0c7",
-    "url": "/static/js/main.b59da065.chunk.js"
+    "revision": "f6e1f041e2a72a5b47a9",
+    "url": "/static/js/main.f6e1f041.chunk.js"
   },
   {
     "revision": "515b9feb6ead3057c91e484b9c505f87",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/brand.47797a1e.png"
   },
   {
-    "revision": "d658a2de339577f4d7b3a2f4d5479171",
+    "revision": "2a2bf3f096563f82a4f4afd89c9628b2",
     "url": "/index.html"
   }
 ];
