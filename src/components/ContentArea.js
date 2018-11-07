@@ -57,7 +57,7 @@ class ContentArea extends React.Component {
                         <Nav className="mr-auto" navbar>
 
                             <NavItem>
-                                <NavLink id="testimonials" name="home" onClick={this.onClick} href="3">Testimonials</NavLink>
+                                <NavLink id="testimonials" name="home" onClick={this.onClick} href="#">Testimonials</NavLink>
                             </NavItem>
 
                             <NavItem>

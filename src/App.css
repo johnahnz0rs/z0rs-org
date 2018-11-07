@@ -1,6 +1,9 @@
 /*ContentArea.js*/
+.root-div {
+    width: 95%;
+}
 .my-navbar {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 .navbar-brand {
     width: 150px;
@@ -12,19 +15,25 @@
     flex-direction: row;
 }
 .nav-link {
-    margin-left: 1.5em;
+    /*margin-left: 0.5em;*/
+    margin-right: 1em;
 }
 /*end ContentArea.js*/
 
 
 
 /*Home*/
-.home-root {
+.home-root-desktop {
     width: 66%;
     margin: 0 auto;
 }
-.testimonials-header {
-    display: block;
+.home-root-mobile {
+    /*width: 100%;*/
+    margin: 0;
+}
+.testi-group {
+    display: inline-block;
+    vertical-align: top;
 }
 .testimonial {
     width: 180px;
@@ -32,6 +41,20 @@
     /*display: inline-block;*/
     display: block;
     margin: 20px auto;
+}
+.testimonial-mobile {
+    width: 180px;
+    height: 320px;
+    display: block;
+    margin: 0 auto 130px auto;
+}
+.testimonial-collapse {
+    display: block;
+    margin-bottom: 130px;
+}
+.my-toggle-button {
+    width: 95%;
+    margin: 10px auto;
 }
 /*end Home*/
 
