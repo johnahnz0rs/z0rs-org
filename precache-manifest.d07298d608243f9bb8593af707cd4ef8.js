@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/whatmusic.726284cf.png"
   },
   {
-    "revision": "52f02660992249884eb2",
+    "revision": "3e71c58aad29652c8f77",
     "url": "/static/css/main.32ff98e6.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/upwork.52dea12c.png"
   },
   {
-    "revision": "52f02660992249884eb2",
-    "url": "/static/js/main.52f02660.chunk.js"
+    "revision": "3e71c58aad29652c8f77",
+    "url": "/static/js/main.3e71c58a.chunk.js"
   },
   {
     "revision": "515b9feb6ead3057c91e484b9c505f87",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/brand.47797a1e.png"
   },
   {
-    "revision": "8ac68c034a9a0e0fa21619eee8f70fa4",
+    "revision": "93ead5c38325a77aa7d705f6c57ed5b3",
     "url": "/index.html"
   }
 ];
