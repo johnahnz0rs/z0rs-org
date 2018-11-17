@@ -1,48 +1,94 @@
 import React from 'react';
-import {
-    Navbar,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink
-} from 'reactstrap';
+
 import Brand from '../assets/brand.png';
 
 
-const MyNavbar = props => {
+class MyNavbar extends React.Component {
 
-    return (
-        <React.Fragment>
-            <div className="container-fluid">
+    constructor(props) {
+        super(props);
+        this.state = {
 
-                <Navbar color="green" light>
+        };
+        // declare methods here
+        this.clickPage = this.clickPage.bind(this);
+    }
 
-                    <NavbarBrand href='/z0rs-org/' className="mr-auto ml-auto">
-                        <img className="navbar-brand" src={Brand} alt="" />
-                    </NavbarBrand>
+    componentDidMount() {
 
-                    <Nav className="mr-auto" navbar>
-                        <NavItem>
-                            <NavLink href="/z0rs-org/portfolio">Portfolio</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/z0rs-org/resume">Resume</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/z0rs-org/about">About J.Ahn</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/z0rs-org/contact">Contact</NavLink>
-                        </NavItem>
-                    </Nav>
-                </Navbar>
+    }
 
-                <div className="navbar-divider">&nbsp;</div>
 
-            </div>
-        </React.Fragment>
-    );
+    clickPage = (e) => {
+        const page = e.target.name;
+        this.props.clickPage(page);
+    };
 
-};
+
+
+
+    render() {
+
+        const navbar = {
+            // backgroundColor: '#F36D76',
+            backgroundColor: 'white',
+            // marginBottom: '627px'
+        };
+        const navbarBrand = {
+            width: '150px',
+            height: 'auto'
+        };
+
+        const navLink = {
+            /*marginLeft: 0.5em;*/
+            marginRight: '1em'
+        };
+
+
+
+
+        return (
+            <React.Fragment>
+                <nav className="navbar navbar-expand-sm navbar-light container-fluid fixed-top" style={navbar}>
+                    <a className="navbar-brand" href="#">
+                        <img name="home" className="navbar-brand" src={Brand} style={navbarBrand} alt="home" onClick={this.clickPage} />
+                    </a>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav ml-auto">
+
+                            <li className="nav-item" style={navLink}>
+                                <a name="home" className="nav-link" href="#" onClick={this.clickPage}>Testimonials</a>
+                            </li>
+                            <li className="nav-item" style={navLink}>
+                                <a name="portfolio" className="nav-link" href="#" onClick={this.clickPage}>Portfolio</a>
+                            </li>
+                            <li className="nav-item" style={navLink}>
+                                <a name="resume" className="nav-link" href="#" onClick={this.clickPage}>Resume</a>
+                            </li>
+                            <li className="nav-item" style={navLink}>
+                                <a name="about" className="nav-link" href="#" onClick={this.clickPage}>About</a>
+                            </li>
+                            <li className="nav-item" style={navLink}>
+                                <a name="contact" className="nav-link" href="#" onClick={this.clickPage}>Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+
+                </nav>
+
+
+            </React.Fragment>
+        );
+
+    }
+ }
 
 export default MyNavbar;

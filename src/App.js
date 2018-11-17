@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-// import './Nicole.css';
 import { BrowserRouter } from 'react-router-dom';
 import ContentArea from './components/ContentArea';
 

@@ -1,61 +1,16 @@
-/*ContentArea.js*/
-.root-div {
-    width: 95%;
-}
-.my-navbar {
-    margin-bottom: 7px;
-}
-.navbar-brand {
-    width: 150px;
-    height: auto;
-}
-.navbar-nav{
+/* KEEP */
+.navbar-nav {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
 }
-.nav-link {
-    /*margin-left: 0.5em;*/
-    margin-right: 1em;
+body {
+    padding-top: 95px;
+    margin-bottom: 50px;
 }
-/*end ContentArea.js*/
+/* </KEEP> */
 
 
-
-/*Home*/
-.home-root-desktop {
-    width: 66%;
-    margin: 0 auto;
-}
-.home-root-mobile {
-    /*width: 100%;*/
-    margin: 0;
-}
-.testi-group {
-    display: inline-block;
-    vertical-align: top;
-}
-.testimonial {
-    width: 180px;
-    height: 320px;
-    /*display: inline-block;*/
-    display: block;
-    margin: 20px auto;
-}
-.testimonial-mobile {
-    width: 180px;
-    height: 320px;
-    display: block;
-    margin: 0 auto 130px auto;
-}
-.testimonial-collapse {
-    display: block;
-    margin-bottom: 130px;
-}
-.my-toggle-button {
-    width: 95%;
-    margin: 10px auto;
-}
 /*end Home*/
 
 /*Modal*/
@@ -193,8 +148,8 @@ dd {
 .text-large {
     font-size: 1.5em;
 }
-.page-title {
-    text-decoration: underline;
-    margin-bottom: 10px;
-}
+/*.page-title {*/
+    /*text-decoration: underline;*/
+    /*margin-bottom: 10px;*/
+/*}*/
 /*end Misc*/

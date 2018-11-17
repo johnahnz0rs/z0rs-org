@@ -1,27 +1,44 @@
 import React from 'react';
 
-const Testimonials = (props) => {
+class Testimonials extends React.Component {
 
-    return (
-        <React.Fragment>
-            <div className="mb-4">
+    constructor(props) {
+        super(props);
+        this.state = {
 
-                {props.group.members.map(friend => {
+        };
+        // declare methods here
+    }
 
-                    // const src = "https://www.youtube.com/embed/" + friend.id + '?version=3&autoplay=0&loop=1&playlist=' + friend.id;
-                    const src = "https://www.youtube.com/embed/" + friend.id + '?version=3&autoplay=0&loop=0';
+    componentDidMount() {
+        console.log('*** props.group ***', this.props.group);
+    }
 
-                    return (
-                        <div className="testimonial" key={friend.id}>
-                            <iframe width="180" height="320" title={friend.id} src={src} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        </div>
-                    );
-                })}
-            </div>
+    render() {
 
-        </React.Fragment>
-    );
+        // {/*dimensions: 180x320 || 135x240 || 90x160*/}
 
-};
+        return (
+            <React.Fragment>
+                <div className="mb-5">
+                    {this.props.group.map(friend => {
+
+                        const src = 'https://www.youtube.com/embed/' + friend.id + '?version=3&autoplay=0&loop=0';
+
+
+                        return(
+                            <div className="d-block mb-3" key={friend.id}>
+                                <iframe height="240" width="135" title={friend.id} src={src} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            </div>
+                        );
+
+                    })}
+                </div>
+
+            </React.Fragment>
+        );
+    }
+
+}
 
 export default Testimonials;
