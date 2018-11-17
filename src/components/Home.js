@@ -84,7 +84,7 @@ class Home extends React.Component {
                 <div className="container-fluid">
 
 
-                    <button className="btn btn-sm btn-primary" onClick={this.printState}>print state</button>
+                    {/*<button className="btn btn-sm btn-primary" onClick={this.printState}>print state</button>*/}
 
                     {/*header*/}
                     <div className="mb-5 text-center">
