@@ -76,64 +76,12 @@ class Home extends React.Component {
 
     render() {
 
-
-
-
-        /*Home*/
-        // const home-root-desktop {
-        //         width: 66%;
-        //         margin: 0 auto;
-        // };
-        // const home-root-mobile = {
-        //         margin: 0;
-        // };
-        // const testi-group = {
-        //         display: inline-block;
-        //         vertical-align: top;
-        // };
-        // const testimonial = {
-        //         width: 180px;
-        //         height: 320px;
-        //         /*display: inline-block;*/
-        //         display: block;
-        //         margin: 20px auto;
-        // };
-        // // const testimonial iframe = {
-        // //         height: 100%;
-        // // };
-        //
-        //
-        //
-        // const testimonial-mobile = {
-        //         width: 180px;
-        //         height: 320px;
-        //         display: block;
-        //         margin: 0 auto 130px auto;
-        // };
-        // const testimonial-collapse = {
-        //         display: block;
-        //         margin-bottom: 130px;
-        // };
-        // const my-toggle-button = {
-        //         width: 95%;
-        //         margin: 10px auto;
-        // };
-
-        const homeRoot = {
-            // marginTop: '627px'
-        };
         const small = {fontSize: 'medium', display: 'block'};
-        // const testimonial = {
-        //     marginTop: '10px'
-        // };
         const more = { width: '100%'};
-
-
-
 
         return (
             <React.Fragment>
-                <div className="container-fluid" style={homeRoot}>
+                <div className="container-fluid">
 
 
                     <button className="btn btn-sm btn-primary" onClick={this.printState}>print state</button>
@@ -322,6 +270,10 @@ class Home extends React.Component {
 
 
 
+
+
+
+
                     {/* Modal */}
                     <div className="modal fade text-left" id="joinTestimonyModal" tabIndex="-1" role="dialog" aria-labelledby="joinTestimonyLabel" aria-hidden="true">
                         <div className="modal-dialog" role="document">
@@ -366,6 +318,7 @@ class Home extends React.Component {
                             </div>
                         </div>
                     </div>
+                    {/* end modal */}
 
 
                 </div>
