@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/dog_girl.350529bc.png"
   },
   {
-    "revision": "d0c0c781551fed5f4755",
+    "revision": "4047af1e875bddd77c52",
     "url": "/static/css/main.0dbbf851.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/showshuffle.e8045c27.png"
   },
   {
-    "revision": "d0c0c781551fed5f4755",
-    "url": "/static/js/main.d0c0c781.chunk.js"
+    "revision": "4047af1e875bddd77c52",
+    "url": "/static/js/main.4047af1e.chunk.js"
   },
   {
     "revision": "9ca941a648b3f287f8db3cc46f266a82",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/dog_truck.a5b7c4e9.png"
   },
   {
-    "revision": "3c5fbfdedb5c71474abec412967276ba",
+    "revision": "4cfc8895691b878b760ed4ddf378a238",
     "url": "/index.html"
   }
 ];
