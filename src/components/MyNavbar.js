@@ -45,13 +45,11 @@ class MyNavbar extends React.Component {
         };
 
 
-
-
         return (
             <React.Fragment>
                 <nav className="navbar navbar-expand-sm navbar-light container-fluid fixed-top" style={navbar}>
                     <a className="navbar-brand" href="#">
-                        <img name="home" className="navbar-brand" src={Brand} style={navbarBrand} alt="home" onClick={this.clickPage} />
+                        <img name="portfolio" className="navbar-brand" src={Brand} style={navbarBrand} alt="home" onClick={this.clickPage} />
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -62,7 +60,7 @@ class MyNavbar extends React.Component {
                         <ul className="navbar-nav ml-auto">
 
                             <li className="nav-item" style={navLink}>
-                                <a name="home" className="nav-link" href="#" onClick={this.clickPage}>Testimonials</a>
+                                <a name="testimonial" className="nav-link" href="#" onClick={this.clickPage}>Testimonials</a>
                             </li>
                             <li className="nav-item" style={navLink}>
                                 <a name="portfolio" className="nav-link" href="#" onClick={this.clickPage}>Portfolio</a>

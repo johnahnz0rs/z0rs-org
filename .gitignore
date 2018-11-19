@@ -25,3 +25,6 @@ yarn-error.log*
 venv/
 .env
 src/Nicole.css
+src/components/HomeCarousel.js
+src/components/ContactForm.js
+src/components/ContactInfo.js

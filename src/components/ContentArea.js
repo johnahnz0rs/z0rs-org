@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import Home from './Home';
+import Testimonial from './Testimonial';
 import Portfolio from './Portfolio';
 import Resume from './Resume';
 import About from './About';
@@ -18,7 +18,7 @@ class ContentArea extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            showThisTab: 'home'
+            showThisTab: 'contact'
         };
         this.clickPage = this.clickPage.bind(this);
     }
@@ -33,10 +33,6 @@ class ContentArea extends React.Component {
 
 
     render() {
-
-
-
-
         return (
             <React.Fragment>
                 <div className="root-div">
@@ -44,10 +40,10 @@ class ContentArea extends React.Component {
                         <MyNavbar clickPage={this.clickPage} />
 
 
-                        {this.state.showThisTab === 'home' && <Home />}
+                        {this.state.showThisTab === 'testimonial' && <Testimonial />}
                         {this.state.showThisTab === 'portfolio' && <Portfolio />}
                         {this.state.showThisTab === 'resume' && <Resume />}
-                        {this.state.showThisTab === 'about' && <About />}
+                        {this.state.showThisTab === 'about' && <About clickPage={this.clickPage} />}
                         {this.state.showThisTab === 'contact' && <Contact />}
 
                 </div>

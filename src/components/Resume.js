@@ -1,33 +1,37 @@
 import React from "react";
+
 import ImgResume from '../assets/resume.png';
 
 
 const Resume = props => {
 
     const resumeURL = 'https://drive.google.com/file/d/1-GFUiMXOzbxW4HTXMNMhpagbZ0wuB4SY/view?usp=sharing';
+    const resumeDiv = {width: '95%'};
+    const resumeThumbnail = {
+        border: '2px solid black',
+        borderRadius: '8px',
+        maxWidth: '95%'
+    };
+
+
 
     return (
         <React.Fragment>
-            <div className="container-fluid text-center">
+            <div className="container-fluid text-center mb-3">
 
-                <h1 className="page-title">Resume</h1>
+                <h1 className="font-weight-bold mb-4">Resume</h1>
 
-
-                <div className="col-12">
-                    <form action={resumeURL} target="_blank" rel="noopener noreferrer">
-
-                        {/* button-link to gdocs/resume */}
-                        <input type="submit" className="btn btn-lg btn-outline-success" value="View & Save PDF" />
-                    </form>
-                </div>
-
-                <div className="col-12 resume-img">
-                    {/* img also links to gdocs/resume */}
-                    <a href={resumeURL} target="_blank" rel="noopener noreferrer">
-                        <img className="resume-thumbnail" src={ImgResume} alt="John Ahn's Resume" />
+                <p>
+                    <a href={resumeURL} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-success" >
+                        View & Save PDF
                     </a>
+                </p>
 
-                </div>
+                <p>
+                    <a href={resumeURL} target="_blank" rel="noopener noreferrer">
+                        <img style={resumeThumbnail} src={ImgResume} alt="John Ahn's Resume" />
+                    </a>
+                </p>
 
             </div>
         </React.Fragment>
