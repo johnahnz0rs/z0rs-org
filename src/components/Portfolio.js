@@ -4,12 +4,14 @@ import React from "react";
 // images
 import WhatMusic from '../assets/whatmusic.png';
 import DevJobs from '../assets/devjobs.png';
-// import ComingSoon from '../assets/comingsoon.png';
+import ShowShuffle from '../assets/showshuffle.png';
+
 import DogGirl from '../assets/dog_girl.png';
 import DogTruck from '../assets/dog_truck.png';
 import DogWink from '../assets/dog_wink.png';
 import DogWrinkly from '../assets/dog_wrinkly.png';
 // import GitHub from '../assets/github.png';
+// import ComingSoon from '../assets/comingsoon.png';
 // import Upwork from '../assets/upwork.png';
 
 
@@ -41,7 +43,11 @@ class Portfolio extends React.Component {
             height: 'auto',
             marginBottom: '30px'
         };
-
+        const portfolioScreenshotTall = {
+            width: 'auto',
+            height: '350px',
+            marginBottom: '30px'
+        };
 
         return (
             <React.Fragment>
@@ -99,7 +105,7 @@ class Portfolio extends React.Component {
                         <div className="col-12 col-md-5 text-center">
                             {/* picture */}
                             <a href="https://show-shuffle.herokuapp.com" target="_blank" rel="noopener noreferrer">
-                                <img className="" style={portfolioScreenshot} src={DogGirl} alt="screenshot"/>
+                                <img className="" style={portfolioScreenshotTall} src={ShowShuffle} alt="screenshot"/>
                             </a>
                         </div>
 
@@ -188,7 +194,7 @@ class Portfolio extends React.Component {
                         <div className="col-12 col-md-5 text-center">
                             {/* picture */}
                             <a href="https://pick-a-movie.herokuapp.com" target="_blank" rel="noopener noreferrer">
-                                <img className="" style={portfolioScreenshot} src={DogWink} alt="screenshot"/>
+                                <img className="" style={portfolioScreenshot} src={DogGirl} alt="screenshot"/>
                             </a>
                         </div>
 
@@ -232,7 +238,7 @@ class Portfolio extends React.Component {
                         <div className="col-12 col-md-5 text-center">
                             {/* picture */}
                             <a href="http://rbpal.me" target="_blank" rel="noopener noreferrer">
-                                <img className="" style={portfolioScreenshot} src={DogTruck} alt="rBP screenshot placeholder" />
+                                <img className="" style={portfolioScreenshot} src={DogWrinkly} alt="rBP screenshot placeholder" />
                             </a>
                         </div>
 
@@ -274,7 +280,7 @@ class Portfolio extends React.Component {
                         <div className="col-12 col-md-5 text-center">
                             {/* picture */}
                             <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img className="" style={portfolioScreenshot} src={DogWrinkly} alt="screenshot"/>
+                                <img className="" style={portfolioScreenshot} src={DogWink} alt="screenshot"/>
                             </a>
                         </div>
 
