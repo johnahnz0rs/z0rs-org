@@ -34,25 +34,31 @@ class Portfolio extends React.Component {
     render() {
 
         const portfolioItem = {
-            margin: '30px auto',
+            margin: '50px auto',
             padding: '30px 0',
-            border: '1px solid black'
+            border: '1px solid black',
+            borderRadius: '8px'
         };
         const portfolioScreenshot = {
             width: '95%',
             height: 'auto',
-            marginBottom: '30px'
+            marginBottom: '30px',
         };
         const portfolioScreenshotTall = {
             width: 'auto',
             height: '350px',
-            marginBottom: '30px'
+            marginBottom: '30px',
+        };
+        const portfolioScreenshotSquare = {
+            width: '250px',
+            height: 'auto',
+            marginBottom: '30px',
         };
 
         return (
             <React.Fragment>
 
-                <div className="container-fluid">
+                <div className="container">
                     <h1 className="mb-5 text-center font-weight-bold">Portfolio</h1>
 
                     {/* whatMusic */}
@@ -194,7 +200,7 @@ class Portfolio extends React.Component {
                         <div className="col-12 col-md-5 text-center">
                             {/* picture */}
                             <a href="https://pick-a-movie.herokuapp.com" target="_blank" rel="noopener noreferrer">
-                                <img className="" style={portfolioScreenshot} src={DogGirl} alt="screenshot"/>
+                                <img className="" style={portfolioScreenshotSquare} src={DogGirl} alt="screenshot"/>
                             </a>
                         </div>
 
@@ -238,7 +244,7 @@ class Portfolio extends React.Component {
                         <div className="col-12 col-md-5 text-center">
                             {/* picture */}
                             <a href="http://rbpal.me" target="_blank" rel="noopener noreferrer">
-                                <img className="" style={portfolioScreenshot} src={DogWrinkly} alt="rBP screenshot placeholder" />
+                                <img className="" style={portfolioScreenshotSquare} src={DogWrinkly} alt="rBP screenshot placeholder" />
                             </a>
                         </div>
 
