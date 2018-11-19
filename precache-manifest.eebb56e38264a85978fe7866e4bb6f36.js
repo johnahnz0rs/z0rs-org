@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/dog_truck.a5b7c4e9.png"
   },
   {
-    "revision": "d2d215a0d9d391b1a416",
+    "revision": "5543214a1ffc235619b5",
     "url": "/static/css/main.0dbbf851.chunk.css"
   },
   {
-    "revision": "9fd95f1672310ade8d90",
-    "url": "/static/js/1.9fd95f16.chunk.js"
+    "revision": "2750146e9dfd3ea0a4f1",
+    "url": "/static/js/1.2750146e.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/dog_girl.350529bc.png"
   },
   {
-    "revision": "d2d215a0d9d391b1a416",
-    "url": "/static/js/main.d2d215a0.chunk.js"
+    "revision": "5543214a1ffc235619b5",
+    "url": "/static/js/main.5543214a.chunk.js"
   },
   {
     "revision": "9045754500805adcfc613215aefd2cee",
@@ -60,11 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/brand.47797a1e.png"
   },
   {
-    "revision": "512f5da658e499b124cb636eb965259b",
-    "url": "/static/media/comingsoon.512f5da6.png"
-  },
-  {
-    "revision": "42b874caa8b6086082756384e9775f93",
+    "revision": "5cab5a9d633d29b1ced4056cf0260357",
     "url": "/index.html"
   }
 ];

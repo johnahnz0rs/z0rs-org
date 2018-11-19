@@ -1,12 +1,11 @@
 {
   "main.css": "/static/css/main.0dbbf851.chunk.css",
-  "main.js": "/static/js/main.d2d215a0.chunk.js",
-  "main.js.map": "/static/js/main.d2d215a0.chunk.js.map",
-  "static/js/1.9fd95f16.chunk.js": "/static/js/1.9fd95f16.chunk.js",
-  "static/js/1.9fd95f16.chunk.js.map": "/static/js/1.9fd95f16.chunk.js.map",
+  "main.js": "/static/js/main.5543214a.chunk.js",
+  "main.js.map": "/static/js/main.5543214a.chunk.js.map",
+  "static/js/1.2750146e.chunk.js": "/static/js/1.2750146e.chunk.js",
+  "static/js/1.2750146e.chunk.js.map": "/static/js/1.2750146e.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/comingsoon.png": "/static/media/comingsoon.512f5da6.png",
   "static/media/instagram.png": "/static/media/instagram.01a54c49.png",
   "static/media/devjobs.png": "/static/media/devjobs.515b9feb.png",
   "static/media/dog_girl.png": "/static/media/dog_girl.350529bc.png",
@@ -20,6 +19,6 @@
   "static/media/whatmusic.png": "/static/media/whatmusic.726284cf.png",
   "static/css/main.0dbbf851.chunk.css.map": "/static/css/main.0dbbf851.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.9f368c7bad6ab9e64c349a1908fdbee9.js": "/precache-manifest.9f368c7bad6ab9e64c349a1908fdbee9.js",
+  "precache-manifest.eebb56e38264a85978fe7866e4bb6f36.js": "/precache-manifest.eebb56e38264a85978fe7866e4bb6f36.js",
   "service-worker.js": "/service-worker.js"
 }
