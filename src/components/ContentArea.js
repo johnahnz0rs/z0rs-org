@@ -18,7 +18,7 @@ class ContentArea extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            showThisTab: 'contact'
+            showThisTab: 'portfolio'
         };
         this.clickPage = this.clickPage.bind(this);
     }
