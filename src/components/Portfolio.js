@@ -6,6 +6,7 @@ import WhatMusic from '../assets/whatmusic.png';
 import WhatMusicTall from '../assets/whatMusicTall.png';
 import DevJobs from '../assets/devjobs.png';
 import ShowShuffle from '../assets/showshuffle.png';
+import ShowShuffleLeslie from '../assets/show-shuffle-leslie.png';
 import RBP from '../assets/rbp.png';
 import Deni from '../assets/denileeart.png';
 
@@ -114,7 +115,7 @@ class Portfolio extends React.Component {
                         <div className="col-12 col-md-5 text-center">
                             {/* picture */}
                             <a href="https://show-shuffle.herokuapp.com" target="_blank" rel="noopener noreferrer">
-                                <img className="" style={portfolioScreenshotTall} src={ShowShuffle} alt="screenshot"/>
+                                <img className="" style={portfolioScreenshotTall} src={ShowShuffleLeslie} alt="screenshot"/>
                             </a>
                         </div>
 

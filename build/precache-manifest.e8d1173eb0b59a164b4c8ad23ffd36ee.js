@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/dog_girl.350529bc.png"
   },
   {
-    "revision": "77b69caa16ab6ed6fa14",
+    "revision": "1ea6188753544977e69d",
     "url": "/static/css/main.0dbbf851.chunk.css"
   },
   {
-    "revision": "58c1390298732b837c9c",
-    "url": "/static/js/1.58c13902.chunk.js"
+    "revision": "4bc78fa7c6c61a67b354",
+    "url": "/static/js/1.4bc78fa7.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/devjobs.515b9feb.png"
   },
   {
-    "revision": "1230cb1d6b83b7edb23d34618b25644c",
-    "url": "/static/media/showshuffle.1230cb1d.png"
+    "revision": "e6852d3399fe7b101fcf83b226865632",
+    "url": "/static/media/show-shuffle-leslie.e6852d33.png"
   },
   {
     "revision": "a7a7c65fe73bffd3255df0d16a29889c",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/denileeart.e72ec5e1.png"
   },
   {
-    "revision": "77b69caa16ab6ed6fa14",
-    "url": "/static/js/main.77b69caa.chunk.js"
+    "revision": "1ea6188753544977e69d",
+    "url": "/static/js/main.1ea61887.chunk.js"
   },
   {
     "revision": "e6715d46a460ddd9525021366efc5417",
@@ -64,6 +64,10 @@ self.__precacheManifest = [
     "url": "/static/media/whatmusic.726284cf.png"
   },
   {
+    "revision": "1230cb1d6b83b7edb23d34618b25644c",
+    "url": "/static/media/showshuffle.1230cb1d.png"
+  },
+  {
     "revision": "a5b7c4e9e60ee67b27faf7edfddfb9ce",
     "url": "/static/media/dog_truck.a5b7c4e9.png"
   },
@@ -76,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/media/dog_wrinkly.29250d36.png"
   },
   {
-    "revision": "193be5341fac65006c478d8230a97dc0",
+    "revision": "5057c780c99ed163c60d467d635f72fa",
     "url": "/index.html"
   }
 ];
