@@ -3,8 +3,11 @@ import React from "react";
 
 // images
 import WhatMusic from '../assets/whatmusic.png';
+import WhatMusicTall from '../assets/whatMusicTall.png';
 import DevJobs from '../assets/devjobs.png';
 import ShowShuffle from '../assets/showshuffle.png';
+import RBP from '../assets/rbp.png';
+import Deni from '../assets/denileeart.png';
 
 import DogGirl from '../assets/dog_girl.png';
 import DogTruck from '../assets/dog_truck.png';
@@ -67,7 +70,7 @@ class Portfolio extends React.Component {
                         <div className="col-12 col-md-5 text-center">
                             {/* picture */}
                             <a href="http://whatmusic.xyz" target="_blank" rel="noopener noreferrer">
-                                <img className="" style={portfolioScreenshot} src={WhatMusic} alt="whatMusic written in React-Node"/>
+                                <img className="" style={portfolioScreenshotTall} src={WhatMusicTall} alt="whatMusic written in React-Node"/>
                             </a>
                         </div>
 
@@ -90,7 +93,7 @@ class Portfolio extends React.Component {
 
                                 <dt className="col-lg-2">Technologies</dt>
                                 <dd className="col-lg-1"></dd>
-                                <dd className="col-lg-9 mb-4">JavaScript MERN ( React.js - Node.js - Express - MongoDB ), Bootstrap CSS & JS, Heroku</dd>
+                                <dd className="col-lg-9 mb-4">JavaScript MERN (React.js - Node.js - Express - MongoDB), Bootstrap CSS & JS, Heroku</dd>
 
                                 <dt className="col-lg-2">Inspiration</dt>
                                 <dd className="col-lg-1"></dd>
@@ -132,7 +135,7 @@ class Portfolio extends React.Component {
 
                                 <dt className="col-lg-2">Technologies</dt>
                                 <dd className="col-lg-1"></dd>
-                                <dd className="col-lg-9 mb-4">JavaScript MERN ( React.js - Node.js - Express - MongoDB ), Bootstrap CSS & JS, Heroku </dd>
+                                <dd className="col-lg-9 mb-4">JavaScript MERN (React.js - Node.js - Express - MongoDB), Bootstrap CSS & JS, Heroku </dd>
 
                                 <dt className="col-lg-2">Inspiration</dt>
                                 <dd className="col-lg-1"></dd>
@@ -146,6 +149,151 @@ class Portfolio extends React.Component {
                         </div>
 
                     </div>
+
+
+
+                    {/* deni-lee-art */}
+                    <div className="row" style={portfolioItem}>
+
+                        <div className="col-12 col-md-5 text-center">
+                            {/* picture */}
+                            <a href="https://denileeart.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                                <img className="" style={portfolioScreenshotTall} src={Deni} alt="screenshot"/>
+                            </a>
+                        </div>
+
+                        <div className="col-12 col-md-7" style={{padding: '0 30px'}}>
+                            {/* header */}
+                            <a href="https://denileeart.herokuapp.com" target="_blank" rel="noopener noreferrer" style={{color: 'black'}}>
+                                <h3 className="font-weight-bold mb-0">Deni Rene Lee</h3>
+                            </a>
+                            <span className="d-block mb-3">
+                                <a href="https://denileeart.herokuapp.com" target="_blank" rel="noopener noreferrer">denilee.art</a> - <a href="https://github.com/johnahnz0rs/denileeart" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </span>
+
+                            {/* body */}
+                            <dl className="row">
+                                <dt className="col-lg-2">Description</dt>
+                                <dd className="col-lg-1"></dd>
+                                <dd className="col-lg-9 mb-4">A site to display my friend Deni's sketches for <a href="https://www.instagram.com/explore/tags/inktober/" target="_blank" rel="noopener noreferrer">#Inktober</a> 2018.</dd>
+
+                                <dt className="col-lg-2">Technologies</dt>
+                                <dd className="col-lg-1"></dd>
+                                <dd className="col-lg-9 mb-4">React.js front-end</dd>
+
+                                <dt className="col-lg-2">Inspiration</dt>
+                                <dd className="col-lg-1"></dd>
+                                <dd className="col-lg-9 mb-4">I took a special interest when Deni posted her first <a href="https://www.instagram.com/explore/tags/inktober/" target="_blank" rel="noopener noreferrer">#inktober</a> sketch. I followed up on her commitment to sketch everyday, and when the month was over I made her this website as a reward.</dd>
+                            </dl>
+
+                            {/* footer */}
+                            <span className="d-block d-sm-none mb-3">
+                                <a href="https://denileeart.herokuapp.com" target="_blank" rel="noopener noreferrer">denilee.art</a> - <a href="https://github.com/johnahnz0rs/denileeart" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </span>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+                    {/* rBP */}
+                    <div className="row" style={portfolioItem}>
+
+                        <div className="col-12 col-md-5 text-center">
+                            {/* picture */}
+                            <a href="http://rbpal.me" target="_blank" rel="noopener noreferrer">
+                                <img className="" style={portfolioScreenshotSquare} src={RBP} alt="rBP screenshot placeholder" />
+                            </a>
+                        </div>
+
+                        <div className="col-12 col-md-7" style={{padding: '0 30px'}}>
+                            {/* header */}
+                            <a href="http://rbpal.me" target="_blank" rel="noopener noreferrer" style={{color: 'black'}}>
+                                <h3 className="font-weight-bold mb-0">rBP</h3>
+                            </a>
+                            <span className="d-block mb-3">
+                                <a href="http://rbpal.me" target="_blank" rel="noopener noreferrer">rbpal.me</a> - <a href="https://github.com/johnahnz0rs/rBP" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </span>
+
+                            <dl className="row">
+                                <dt className="col-lg-2">Description</dt>
+                                <dd className="col-lg-1"></dd>
+                                <dd className="col-lg-9 mb-4">Nonjudgmentally presents data and options, so you can <span className="font-weight-bold font-italic">always</span> do the right thing.</dd>
+
+                                <dt className="col-lg-2">Technologies</dt>
+                                <dd className="col-lg-1"></dd>
+                                <dd className="col-lg-9 mb-4">JavaScript MERN (React.js - Node.js - Express - MongoDB), Bootstrap CSS, JS, Heroku</dd>
+
+                                <dt className="col-lg-2">Inspiration</dt>
+                                <dd className="col-lg-1"></dd>
+                                <dd className="col-lg-9 mb-4">
+                                    Personally, I have a difficult time <span className="font-italic">BEING</span> a better person, even though I <span className="font-italic">really want</span> to be. <br />
+                                    rBP is supposed to be like my conscience, my better self, and an old friend who has <span className="font-italic">my</span> best interests at heart and always tells it like it is.
+                                </dd>
+                            </dl>
+
+                            {/* footer */}
+                            <span className="d-block d-sm-none mb-3">
+                                <a href="http://rbpal.me" target="_blank" rel="noopener noreferrer">rbpal.me</a> - <a href="https://github.com/johnahnz0rs/rBP" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </span>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    {/* pickAMovie */}
+                    <div className="row" style={portfolioItem}>
+
+                        <div className="col-12 col-md-5 text-center">
+                            {/* picture */}
+                            <a href="https://pick-a-movie.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                                <img className="" style={portfolioScreenshotSquare} src={DogGirl} alt="screenshot"/>
+                            </a>
+                        </div>
+
+                        <div className="col-12 col-md-7" style={{padding: '0 30px'}}>
+                            {/* header */}
+                            <a href="https://pick-a-movie.herokuapp.com" target="_blank" rel="noopener noreferrer" style={{color: 'black'}}>
+                                <h3 className="font-weight-bold mb-0">pickAMovie</h3>
+                            </a>
+                            <span className="d-block mb-3">
+                                <a href="https://pick-a-movie.herokuapp.com" target="_blank" rel="noopener noreferrer">pick-a-movie.com</a> - <a href="https://github.com/johnahnz0rs/pick-a-movie" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </span>
+
+                            {/* body */}
+                            <dl className="row">
+                                <dt className="col-lg-2">Description</dt>
+                                <dd className="col-lg-1"></dd>
+                                <dd className="col-lg-9 mb-4">Picks a movie for you to watch right now, from your watchlist(s).</dd>
+
+                                <dt className="col-lg-2">Technologies</dt>
+                                <dd className="col-lg-1"></dd>
+                                <dd className="col-lg-9 mb-4">JavaScript MERN (React.js - Node.js - Express - MongoDB), Bootstrap CSS & JS, Heroku</dd>
+
+                                <dt className="col-lg-2">Inspiration</dt>
+                                <dd className="col-lg-1"></dd>
+                                <dd className="col-lg-9 mb-4">Whenever my friends and I try to watch a movie together, we end up wasting an hour or two just deciding on a movie to watch.<br/>Lately, we've been putting names in a hat and picking one at random. So I wrote this app to help us save paper.
+                                </dd>
+                            </dl>
+
+                            {/* footer */}
+                            <span className="d-block d-sm-none mb-3">
+                                <a href="https://pick-a-movie.herokuapp.com" target="_blank" rel="noopener noreferrer">pick-a-movie.com</a> - <a href="https://github.com/johnahnz0rs/pick-a-movie" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </span>
+                        </div>
+
+                    </div>
+
 
 
                     {/* devJobs */}
@@ -176,7 +324,7 @@ class Portfolio extends React.Component {
 
                                 <dt className="col-lg-2">Technologies</dt>
                                 <dd className="col-lg-1"></dd>
-                                <dd className="col-lg-9 mb-4">JavaScript MEAN ( AngularJS - Node.js - Express - MongoDB ), Bootstrap CSS & JS, Heroku</dd>
+                                <dd className="col-lg-9 mb-4">JavaScript MEAN (AngularJS - Node.js - Express - MongoDB), Bootstrap CSS & JS, Heroku</dd>
 
                                 <dt className="col-lg-2">Inspiration</dt>
                                 <dd className="col-lg-1"></dd>
@@ -194,133 +342,53 @@ class Portfolio extends React.Component {
                     </div>
 
 
-                    {/* pickAMovie */}
-                    <div className="row" style={portfolioItem}>
-
-                        <div className="col-12 col-md-5 text-center">
-                            {/* picture */}
-                            <a href="https://pick-a-movie.herokuapp.com" target="_blank" rel="noopener noreferrer">
-                                <img className="" style={portfolioScreenshotSquare} src={DogGirl} alt="screenshot"/>
-                            </a>
-                        </div>
-
-                        <div className="col-12 col-md-7" style={{padding: '0 30px'}}>
-                            {/* header */}
-                            <a href="https://pick-a-movie.herokuapp.com" target="_blank" rel="noopener noreferrer" style={{color: 'black'}}>
-                                <h3 className="font-weight-bold mb-0">pickAMovie</h3>
-                            </a>
-                            <span className="d-block mb-3">
-                                <a href="https://pick-a-movie.herokuapp.com" target="_blank" rel="noopener noreferrer">pick-a-movie.com</a> - <a href="https://github.com/johnahnz0rs/pick-a-movie" target="_blank" rel="noopener noreferrer">GitHub</a>
-                            </span>
-
-                            {/* body */}
-                            <dl className="row">
-                                <dt className="col-lg-2">Description</dt>
-                                <dd className="col-lg-1"></dd>
-                                <dd className="col-lg-9 mb-4">Picks a movie for you to watch right now, from your watchlist(s).</dd>
-
-                                <dt className="col-lg-2">Technologies</dt>
-                                <dd className="col-lg-1"></dd>
-                                <dd className="col-lg-9 mb-4">JavaScript MERN ( React.js - Node.js - Express - MongoDB ), Bootstrap CSS & JS, Heroku</dd>
-
-                                <dt className="col-lg-2">Inspiration</dt>
-                                <dd className="col-lg-1"></dd>
-                                <dd className="col-lg-9 mb-4">Whenever my friends and I try to watch a movie together, we end up wasting an hour or two just deciding on a movie to watch.<br/>Lately, we've been putting names in a hat and picking one at random. So I wrote this app to help us save paper.
-                                </dd>
-                            </dl>
-
-                            {/* footer */}
-                            <span className="d-block d-sm-none mb-3">
-                                <a href="https://pick-a-movie.herokuapp.com" target="_blank" rel="noopener noreferrer">pick-a-movie.com</a> - <a href="https://github.com/johnahnz0rs/pick-a-movie" target="_blank" rel="noopener noreferrer">GitHub</a>
-                            </span>
-                        </div>
-
-                    </div>
 
 
-                    {/* rBP */}
-                    <div className="row" style={portfolioItem}>
-
-                        <div className="col-12 col-md-5 text-center">
-                            {/* picture */}
-                            <a href="http://rbpal.me" target="_blank" rel="noopener noreferrer">
-                                <img className="" style={portfolioScreenshotSquare} src={DogWrinkly} alt="rBP screenshot placeholder" />
-                            </a>
-                        </div>
-
-                        <div className="col-12 col-md-7" style={{padding: '0 30px'}}>
-                            {/* header */}
-                            <a href="http://rbpal.me" target="_blank" rel="noopener noreferrer" style={{color: 'black'}}>
-                                <h3 className="font-weight-bold mb-0">rBP</h3>
-                            </a>
-                            <span className="d-block mb-3">
-                                <a href="http://rbpal.me" target="_blank" rel="noopener noreferrer">rbpal.me</a> - <a href="https://github.com/johnahnz0rs/rBP" target="_blank" rel="noopener noreferrer">GitHub</a>
-                            </span>
-
-                            <dl className="row">
-                                <dt className="col-lg-2">Description</dt>
-                                <dd className="col-lg-1"></dd>
-                                <dd className="col-lg-9 mb-4">Nonjudgmentally presents data and options, so you can <span className="font-weight-bold font-italic">always</span> do the right thing.</dd>
-
-                                <dt className="col-lg-2">Technologies</dt>
-                                <dd className="col-lg-1"></dd>
-                                <dd className="col-lg-9 mb-4">JavaScript MERN ( React.js - Node.js - Express - MongoDB ), Bootstrap CSS, JS, Heroku</dd>
-
-                                <dt className="col-lg-2">Inspiration</dt>
-                                <dd className="col-lg-1"></dd>
-                                <dd className="col-lg-9 mb-4">Personally, I have a difficult time BEING a better person, even though I want to be. rBP is supposed to be like my conscience, my better self, and a dependable friend who tells it like it is always.</dd>
-                            </dl>
-
-                            {/* footer */}
-                            <span className="d-block d-sm-none mb-3">
-                                <a href="http://rbpal.me" target="_blank" rel="noopener noreferrer">rbpal.me</a> - <a href="https://github.com/johnahnz0rs/rBP" target="_blank" rel="noopener noreferrer">GitHub</a>
-                            </span>
-
-                        </div>
-                    </div>
 
 
-                    {/* new portfolioItem */}
-                    <div className="row" style={portfolioItem}>
 
-                        <div className="col-12 col-md-5 text-center">
-                            {/* picture */}
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img className="" style={portfolioScreenshot} src={DogWink} alt="screenshot"/>
-                            </a>
-                        </div>
 
-                        <div className="col-12 col-md-7" style={{padding: '0 30px'}}>
-                            {/* header */}
-                            <a href="#" target="_blank" rel="noopener noreferrer" style={{color: 'black'}}>
-                                <h3 className="font-weight-bold mb-0">Sample Title</h3>
-                            </a>
-                            <span className="d-block mb-3">
-                                <a href="#" target="_blank" rel="noopener noreferrer">whatever.com</a> - <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-                            </span>
+                    {/*/!* new portfolioItem *!/*/}
+                    {/*<div className="row" style={portfolioItem}>*/}
 
-                            {/* body */}
-                            <dl className="row">
-                                <dt className="col-lg-2">Description</dt>
-                                <dd className="col-lg-1"></dd>
-                                <dd className="col-lg-9 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+                        {/*<div className="col-12 col-md-5 text-center">*/}
+                            {/*/!* picture *!/*/}
+                            {/*<a href="#" target="_blank" rel="noopener noreferrer">*/}
+                                {/*<img className="" style={portfolioScreenshot} src={DogWink} alt="screenshot"/>*/}
+                            {/*</a>*/}
+                        {/*</div>*/}
 
-                                <dt className="col-lg-2">Technologies</dt>
-                                <dd className="col-lg-1"></dd>
-                                <dd className="col-lg-9 mb-4">Aliquam fermentum ex at purus tempor maximus. Proin rutrum massa sed iaculis eleifend</dd>
+                        {/*<div className="col-12 col-md-7" style={{padding: '0 30px'}}>*/}
+                            {/*/!* header *!/*/}
+                            {/*<a href="#" target="_blank" rel="noopener noreferrer" style={{color: 'black'}}>*/}
+                                {/*<h3 className="font-weight-bold mb-0">Sample Title</h3>*/}
+                            {/*</a>*/}
+                            {/*<span className="d-block mb-3">*/}
+                                {/*<a href="#" target="_blank" rel="noopener noreferrer">whatever.com</a> - <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>*/}
+                            {/*</span>*/}
 
-                                <dt className="col-lg-2">Inspiration</dt>
-                                <dd className="col-lg-1"></dd>
-                                <dd className="col-lg-9 mb-4">Integer hendrerit aliquet sem a tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer id nisl sapien. Nam nec purus eu lacus ultricies efficitur at nec dui. Aenean sit amet erat lacus.</dd>
-                            </dl>
+                            {/*/!* body *!/*/}
+                            {/*<dl className="row">*/}
+                                {/*<dt className="col-lg-2">Description</dt>*/}
+                                {/*<dd className="col-lg-1"></dd>*/}
+                                {/*<dd className="col-lg-9 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>*/}
 
-                            {/* footer */}
-                            <span className="d-block d-sm-none mb-3">
-                                <a href="#" target="_blank" rel="noopener noreferrer">whatever.com</a> - <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-                            </span>
-                        </div>
+                                {/*<dt className="col-lg-2">Technologies</dt>*/}
+                                {/*<dd className="col-lg-1"></dd>*/}
+                                {/*<dd className="col-lg-9 mb-4">Aliquam fermentum ex at purus tempor maximus. Proin rutrum massa sed iaculis eleifend</dd>*/}
 
-                    </div>
+                                {/*<dt className="col-lg-2">Inspiration</dt>*/}
+                                {/*<dd className="col-lg-1"></dd>*/}
+                                {/*<dd className="col-lg-9 mb-4">Integer hendrerit aliquet sem a tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer id nisl sapien. Nam nec purus eu lacus ultricies efficitur at nec dui. Aenean sit amet erat lacus.</dd>*/}
+                            {/*</dl>*/}
+
+                            {/*/!* footer *!/*/}
+                            {/*<span className="d-block d-sm-none mb-3">*/}
+                                {/*<a href="#" target="_blank" rel="noopener noreferrer">whatever.com</a> - <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>*/}
+                            {/*</span>*/}
+                        {/*</div>*/}
+
+                    {/*</div>*/}
 
                 </div>
 
