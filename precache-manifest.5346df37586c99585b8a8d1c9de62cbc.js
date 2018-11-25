@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/dog_truck.a5b7c4e9.png"
   },
   {
-    "revision": "4cfc8895691b878b760ed4ddf378a238",
+    "revision": "004dec6702f849fd4420010a97f89424",
     "url": "/index.html"
   }
 ];
