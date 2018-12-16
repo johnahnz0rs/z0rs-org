@@ -30,55 +30,57 @@ class MyNavbar extends React.Component {
     render() {
 
         const navbar = {
-            // backgroundColor: '#F36D76',
             backgroundColor: 'white',
-            // marginBottom: '627px'
         };
         const navbarBrand = {
             width: '150px',
             height: 'auto'
         };
 
-        const navLink = {
-            /*marginLeft: 0.5em;*/
-            marginRight: '1em'
-        };
-
 
         return (
             <React.Fragment>
                 <nav className="navbar navbar-expand-sm navbar-light container-fluid fixed-top" style={navbar}>
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand mx-auto" href="#">
                         <img name="portfolio" className="navbar-brand" src={Brand} style={navbarBrand} alt="home" onClick={this.clickPage} />
                     </a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
+
+                    <ul className="navbar-nav ml-auto d-none d-md-flex">
+
+                        <li className="nav-item mr-1">
+                            <a name="testimonial" className="nav-link" href="#" onClick={this.clickPage}>Testimonials</a>
+                        </li>
+                        <li className="nav-item mr-1">
+                            <a name="portfolio" className="nav-link" href="#" onClick={this.clickPage}>Portfolio</a>
+                        </li>
+                        <li className="nav-item mr-1">
+                            <a name="resume" className="nav-link" href="#" onClick={this.clickPage}>Resumes</a>
+                        </li>
+                        <li className="nav-item mr-1">
+                            <a name="contact" className="nav-link" href="#" onClick={this.clickPage}>Contact</a>
+                        </li>
+
+                    </ul>
 
 
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ml-auto">
 
-                            <li className="nav-item" style={navLink}>
-                                <a name="testimonial" className="nav-link" href="#" onClick={this.clickPage}>Testimonials</a>
-                            </li>
-                            <li className="nav-item" style={navLink}>
-                                <a name="portfolio" className="nav-link" href="#" onClick={this.clickPage}>Portfolio</a>
-                            </li>
-                            <li className="nav-item" style={navLink}>
-                                <a name="resume" className="nav-link" href="#" onClick={this.clickPage}>Resume</a>
-                            </li>
-                            <li className="nav-item" style={navLink}>
-                                <a name="about" className="nav-link" href="#" onClick={this.clickPage}>About</a>
-                            </li>
-                            <li className="nav-item" style={navLink}>
-                                <a name="contact" className="nav-link" href="#" onClick={this.clickPage}>Contact</a>
-                            </li>
+                    {/*mobile*/}
+                    <ul className="navbar-nav mx-auto d-flex d-md-none">
 
-                        </ul>
-                    </div>
+                        <li className="nav-item mr-3">
+                            <a name="testimonial" className="nav-link" href="#" onClick={this.clickPage}>Testimonials</a>
+                        </li>
+                        <li className="nav-item mr-3">
+                            <a name="portfolio" className="nav-link" href="#" onClick={this.clickPage}>Portfolio</a>
+                        </li>
+                        <li className="nav-item mr-3">
+                            <a name="resume" className="nav-link" href="#" onClick={this.clickPage}>Resumes</a>
+                        </li>
+                        <li className="nav-item mr-3">
+                            <a name="contact" className="nav-link" href="#" onClick={this.clickPage}>Contact</a>
+                        </li>
 
-
+                    </ul>
 
                 </nav>
 

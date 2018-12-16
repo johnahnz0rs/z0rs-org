@@ -2,18 +2,17 @@ import React from "react";
 
 
 // images
-import WhatMusic from '../assets/whatmusic.png';
 import WhatMusicTall from '../assets/whatMusicTall.png';
 import DevJobs from '../assets/devjobs.png';
-import ShowShuffle from '../assets/showshuffle.png';
 import ShowShuffleLeslie from '../assets/show-shuffle-leslie.png';
 import RBP from '../assets/rbp.png';
 import Deni from '../assets/denileeart.png';
-
 import DogGirl from '../assets/dog_girl.png';
-import DogTruck from '../assets/dog_truck.png';
-import DogWink from '../assets/dog_wink.png';
-import DogWrinkly from '../assets/dog_wrinkly.png';
+// import ShowShuffle from '../assets/showshuffle.png';
+// import WhatMusic from '../assets/whatmusic.png';
+// import DogTruck from '../assets/dog_truck.png';
+// import DogWink from '../assets/dog_wink.png';
+// import DogWrinkly from '../assets/dog_wrinkly.png';
 // import GitHub from '../assets/github.png';
 // import ComingSoon from '../assets/comingsoon.png';
 // import Upwork from '../assets/upwork.png';
@@ -63,7 +62,17 @@ class Portfolio extends React.Component {
             <React.Fragment>
 
                 <div className="container">
-                    <h1 className="mb-5 text-center font-weight-bold">Portfolio</h1>
+
+                    {/* header */}
+                    <div className="mb-5">
+                        <h1 className="text-center font-weight-bold">Portfolio</h1>
+                        <div className="alert alert-success mx-auto" role="alert" style={{width: '85%'}}>
+                            <span><b><u>Scroll Down</u></b> for more.</span>
+                            <button type="button" className="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
 
                     {/* whatMusic */}
                     <div className="row" style={portfolioItem}>
@@ -341,55 +350,6 @@ class Portfolio extends React.Component {
                         </div>
 
                     </div>
-
-
-
-
-
-
-
-
-                    {/*/!* new portfolioItem *!/*/}
-                    {/*<div className="row" style={portfolioItem}>*/}
-
-                        {/*<div className="col-12 col-md-5 text-center">*/}
-                            {/*/!* picture *!/*/}
-                            {/*<a href="#" target="_blank" rel="noopener noreferrer">*/}
-                                {/*<img className="" style={portfolioScreenshot} src={DogWink} alt="screenshot"/>*/}
-                            {/*</a>*/}
-                        {/*</div>*/}
-
-                        {/*<div className="col-12 col-md-7" style={{padding: '0 30px'}}>*/}
-                            {/*/!* header *!/*/}
-                            {/*<a href="#" target="_blank" rel="noopener noreferrer" style={{color: 'black'}}>*/}
-                                {/*<h3 className="font-weight-bold mb-0">Sample Title</h3>*/}
-                            {/*</a>*/}
-                            {/*<span className="d-block mb-3">*/}
-                                {/*<a href="#" target="_blank" rel="noopener noreferrer">whatever.com</a> - <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>*/}
-                            {/*</span>*/}
-
-                            {/*/!* body *!/*/}
-                            {/*<dl className="row">*/}
-                                {/*<dt className="col-lg-2">Description</dt>*/}
-                                {/*<dd className="col-lg-1"></dd>*/}
-                                {/*<dd className="col-lg-9 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>*/}
-
-                                {/*<dt className="col-lg-2">Technologies</dt>*/}
-                                {/*<dd className="col-lg-1"></dd>*/}
-                                {/*<dd className="col-lg-9 mb-4">Aliquam fermentum ex at purus tempor maximus. Proin rutrum massa sed iaculis eleifend</dd>*/}
-
-                                {/*<dt className="col-lg-2">Inspiration</dt>*/}
-                                {/*<dd className="col-lg-1"></dd>*/}
-                                {/*<dd className="col-lg-9 mb-4">Integer hendrerit aliquet sem a tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer id nisl sapien. Nam nec purus eu lacus ultricies efficitur at nec dui. Aenean sit amet erat lacus.</dd>*/}
-                            {/*</dl>*/}
-
-                            {/*/!* footer *!/*/}
-                            {/*<span className="d-block d-sm-none mb-3">*/}
-                                {/*<a href="#" target="_blank" rel="noopener noreferrer">whatever.com</a> - <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>*/}
-                            {/*</span>*/}
-                        {/*</div>*/}
-
-                    {/*</div>*/}
 
                 </div>
 

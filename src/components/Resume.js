@@ -1,37 +1,117 @@
 import React from "react";
 
-import ImgResume from '../assets/resume.png';
+import WebDevImage from '../assets/resume-webdev.png';
+import CookImage from '../assets/resume-cook.png';
+import ComingSoonImage from '../assets/resume-comingsoon.png';
+
 
 
 const Resume = props => {
 
-    const resumeURL = 'https://drive.google.com/file/d/1-GFUiMXOzbxW4HTXMNMhpagbZ0wuB4SY/view?usp=sharing';
-    const resumeDiv = {width: '95%'};
+    // URLs to PDFs
+    const webDevURL = 'https://drive.google.com/file/d/1Wv833cDm87iXHViogFsQ4tWmB3PJxp4u/view?usp=sharing';
+    const cookURL = 'https://drive.google.com/file/d/1_mcNi5Ph0t23jRo4YgT-wDdvVvuwE-OL/view?usp=sharing';
+    const comingSoonURL = '#';
+
+    // stylez
     const resumeThumbnail = {
         border: '2px solid black',
         borderRadius: '8px',
-        maxWidth: '95%'
+        maxWidth: '85%'
     };
-
 
 
     return (
         <React.Fragment>
-            <div className="container-fluid text-center mb-3">
+            <div className="container mb-3">
 
-                <h1 className="font-weight-bold mb-4">Resume</h1>
+                {/* header */}
+                <div className="mb-5">
+                    <h1 className="font-weight-bold text-center">Resumes</h1>
+                    <div className="alert alert-success mx-auto" role="alert" style={{width: '85%'}}>
+                        <span><b><u>Scroll Down</u></b> for more.</span>
+                        <button type="button" className="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
 
-                <p>
-                    <a href={resumeURL} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-success" >
-                        View & Save PDF
+
+
+                {/* jr web dev*/}
+                <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
+                    <h4><b>Full Stack<br />Software Developer</b></h4>
+                    <a className="btn btn-sm btn-outline-success mb-1" href={webDevURL} target="_blank" rel="noopener noreferrer">
+                        PDF version
                     </a>
-                </p>
-
-                <p>
-                    <a href={resumeURL} target="_blank" rel="noopener noreferrer">
-                        <img style={resumeThumbnail} src={ImgResume} alt="John Ahn's Resume" />
+                    <a className="d-block" href={webDevURL} target="_blank" rel="noopener noreferrer">
+                        <img style={resumeThumbnail} src={WebDevImage} alt="John Ahn's Resume" />
                     </a>
-                </p>
+                </div>
+
+
+                {/* cook */}
+                <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
+                    <h4><b>Cook</b></h4>
+                    <a className="btn btn-sm btn-outline-success mb-1" href={cookURL} target="_blank" rel="noopener noreferrer">
+                        PDF version
+                    </a>
+                    <a className="d-block" href={cookURL} target="_blank" rel="noopener noreferrer">
+                        <img style={resumeThumbnail} src={CookImage} alt="John Ahn's Resume" />
+                    </a>
+                </div>
+
+
+
+
+
+                {/* product manager */}
+                <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
+                    <h4><b>Product Manager</b></h4>
+                    <a className="btn btn-sm btn-outline-success mb-1"
+                       href={comingSoonURL}>
+                        PDF version
+                    </a>
+                    <a className="d-block" href={comingSoonURL}>
+                        <img style={resumeThumbnail} src={ComingSoonImage} alt="John Ahn's Resume" />
+                    </a>
+                </div>
+
+
+                {/* operations manager */}
+                <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
+                    <h4><b>Operations Managment</b></h4>
+                    <a className="btn btn-sm btn-outline-success mb-1" href={comingSoonURL}>
+                        PDF version
+                    </a>
+                    <a className="d-block" href={comingSoonURL}>
+                        <img style={resumeThumbnail} src={ComingSoonImage} alt="John Ahn's Resume" />
+                    </a>
+                </div>
+
+
+                {/* executive assistant */}
+                <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
+                    <h4><b>Executive Assistant</b></h4>
+                    <a className="btn btn-sm btn-outline-success mb-1" href={comingSoonURL}>
+                        PDF version
+                    </a>
+                    <a className="d-block" href={comingSoonURL}>
+                        <img style={resumeThumbnail} src={ComingSoonImage} alt="John Ahn's Resume" />
+                    </a>
+                </div>
+
+
+                {/* administrative assistant */}
+                <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
+                    <h4><b>Administrative Assistant</b></h4>
+                    <a className="btn btn-sm btn-outline-success mb-1" href={comingSoonURL}>
+                        PDF version
+                    </a>
+                    <a className="d-block" href={comingSoonURL}>
+                        <img style={resumeThumbnail} src={ComingSoonImage} alt="John Ahn's Resume" />
+                    </a>
+                </div>
 
             </div>
         </React.Fragment>
