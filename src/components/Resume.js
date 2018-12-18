@@ -1,6 +1,7 @@
 import React from "react";
 
 import WebDevImage from '../assets/resume-webdev.png';
+import ExecAsstImage from '../assets/resume-asst.png';
 import CookImage from '../assets/resume-cook.png';
 import ComingSoonImage from '../assets/resume-comingsoon.png';
 
@@ -11,6 +12,7 @@ const Resume = props => {
     // URLs to PDFs
     const webDevURL = 'https://drive.google.com/file/d/1Wv833cDm87iXHViogFsQ4tWmB3PJxp4u/view?usp=sharing';
     const cookURL = 'https://drive.google.com/file/d/1_mcNi5Ph0t23jRo4YgT-wDdvVvuwE-OL/view?usp=sharing';
+    const execAsstURL = 'https://drive.google.com/file/d/19OVW09NFphBYYAc0LcMdugKyyoH53Rxb/view?usp=sharing';
     const comingSoonURL = '#';
 
     // stylez
@@ -50,6 +52,18 @@ const Resume = props => {
                 </div>
 
 
+                {/* executive assistant */}
+                <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
+                    <h4><b>Executive Assistant</b></h4>
+                    <a className="btn btn-sm btn-outline-success mb-1" href={execAsstURL}>
+                        PDF version
+                    </a>
+                    <a className="d-block" href={execAsstURL}>
+                        <img style={resumeThumbnail} src={ExecAsstImage} alt="John Ahn's Resume" />
+                    </a>
+                </div>
+
+
                 {/* cook */}
                 <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
                     <h4><b>Cook</b></h4>
@@ -64,21 +78,8 @@ const Resume = props => {
 
 
 
-
-                {/* product manager */}
-                <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
-                    <h4><b>Product Manager</b></h4>
-                    <a className="btn btn-sm btn-outline-success mb-1"
-                       href={comingSoonURL}>
-                        PDF version
-                    </a>
-                    <a className="d-block" href={comingSoonURL}>
-                        <img style={resumeThumbnail} src={ComingSoonImage} alt="John Ahn's Resume" />
-                    </a>
-                </div>
-
-
-                {/* operations manager */}
+                {/* COMING SOON */}
+                {/* product manager / operations manager */}
                 <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
                     <h4><b>Operations Managment</b></h4>
                     <a className="btn btn-sm btn-outline-success mb-1" href={comingSoonURL}>
@@ -90,28 +91,8 @@ const Resume = props => {
                 </div>
 
 
-                {/* executive assistant */}
-                <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
-                    <h4><b>Executive Assistant</b></h4>
-                    <a className="btn btn-sm btn-outline-success mb-1" href={comingSoonURL}>
-                        PDF version
-                    </a>
-                    <a className="d-block" href={comingSoonURL}>
-                        <img style={resumeThumbnail} src={ComingSoonImage} alt="John Ahn's Resume" />
-                    </a>
-                </div>
 
 
-                {/* administrative assistant */}
-                <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
-                    <h4><b>Administrative Assistant</b></h4>
-                    <a className="btn btn-sm btn-outline-success mb-1" href={comingSoonURL}>
-                        PDF version
-                    </a>
-                    <a className="d-block" href={comingSoonURL}>
-                        <img style={resumeThumbnail} src={ComingSoonImage} alt="John Ahn's Resume" />
-                    </a>
-                </div>
 
             </div>
         </React.Fragment>
