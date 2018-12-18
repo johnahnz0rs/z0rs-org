@@ -4,6 +4,7 @@ import Phone from "../assets/phone.png";
 import LinkedIn from "../assets/linkedin.png";
 import GitHub from "../assets/github.png";
 import Instagram from "../assets/instagram.png";
+import Message from '../assets/text.png';
 
 class Contact extends React.Component {
 
@@ -72,11 +73,12 @@ class Contact extends React.Component {
                     </span>
 
                     {/* msg me (google form) */}
-                    <button className="btn btn-sm btn-outline-success"
-                            onClick={this.toggleForm}>
-                        Send Me a Message
-                    </button>
-
+                    <span style={link}>
+                        <img src={Message} alt="Message Me" style={contactLogo} />&nbsp;
+                        <a href="#" onClick={this.toggleForm}>
+                            Send Me a Message
+                        </a>
+                    </span>
                 </div>
 
 

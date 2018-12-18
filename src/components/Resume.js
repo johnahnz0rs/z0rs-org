@@ -29,13 +29,15 @@ const Resume = props => {
 
                 {/* header */}
                 <div className="mb-5">
-                    <h1 className="font-weight-bold text-center">Resumes</h1>
                     <div className="alert alert-success mx-auto" role="alert" style={{width: '85%'}}>
-                        <span><b><u>Scroll Down</u></b> for more.</span>
+                        <span><b><u>Scroll Down</u></b> for more resumes.</span>
                         <button type="button" className="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
+
+                    <h1 className="font-weight-bold text-center">Resumes</h1>
+
                 </div>
 
 
@@ -55,10 +57,10 @@ const Resume = props => {
                 {/* executive assistant */}
                 <div className="text-center col col-12 col-sm-6 col-md-4 d-inline-block mb-5">
                     <h4><b>Executive Assistant</b></h4>
-                    <a className="btn btn-sm btn-outline-success mb-1" href={execAsstURL}>
+                    <a className="btn btn-sm btn-outline-success mb-1" href={execAsstURL} target="_blank" rel="noopener noreferrer">
                         PDF version
                     </a>
-                    <a className="d-block" href={execAsstURL}>
+                    <a className="d-block" href={execAsstURL} target="_blank" rel="noopener noreferrer">
                         <img style={resumeThumbnail} src={ExecAsstImage} alt="John Ahn's Resume" />
                     </a>
                 </div>

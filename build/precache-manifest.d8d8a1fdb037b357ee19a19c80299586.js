@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/denileeart.e72ec5e1.png"
   },
   {
-    "revision": "ed0d87aa3451109bbefd",
+    "revision": "044d4d0c6a5c7e6fda93",
     "url": "/static/css/main.26f2702a.chunk.css"
   },
   {
-    "revision": "c160fec54b57575a876f",
-    "url": "/static/js/1.c160fec5.chunk.js"
+    "revision": "418737eac0d004ee67e0",
+    "url": "/static/js/1.418737ea.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -36,12 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/rbp.a7a7c65f.png"
   },
   {
-    "revision": "ed0d87aa3451109bbefd",
-    "url": "/static/js/main.ed0d87aa.chunk.js"
-  },
-  {
-    "revision": "350529bc3a09f937868ec2c64738b6b0",
-    "url": "/static/media/dog_girl.350529bc.png"
+    "revision": "044d4d0c6a5c7e6fda93",
+    "url": "/static/js/main.044d4d0c.chunk.js"
   },
   {
     "revision": "96716ef2bccf4cc8c4a8c0bcf70594af",
@@ -64,11 +60,19 @@ self.__precacheManifest = [
     "url": "/static/media/phone.4e10d894.png"
   },
   {
+    "revision": "066441166cebbd939bfdc69787932297",
+    "url": "/static/media/text.06644116.png"
+  },
+  {
     "revision": "47797a1e31109c31c918ba59f31ec7af",
     "url": "/static/media/brand.47797a1e.png"
   },
   {
-    "revision": "618d7d18f19bebe36964038db2b3688c",
+    "revision": "350529bc3a09f937868ec2c64738b6b0",
+    "url": "/static/media/dog_girl.350529bc.png"
+  },
+  {
+    "revision": "04126a0e0c91b2074d8513c369911222",
     "url": "/index.html"
   }
 ];
